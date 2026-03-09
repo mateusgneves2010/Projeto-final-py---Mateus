@@ -1,0 +1,406 @@
+[
+    {
+        "ID": 1,
+        "pergunta": "Vivemos em que planeta?",
+        "Opções": ["Mercúrio", "Vénus", "Terra", "Marte"],
+        "Resposta_correta": 2,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 2,
+        "pergunta": "O Sol é uma:",
+        "Opções": ["Lua", "Estrela", "Planeta", "Cometa"],
+        "Resposta_correta": 1,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 3,
+        "pergunta": "Qual planeta é conhecido como planeta vermelho?",
+        "Opções": ["Marte", "Júpiter", "Vénus", "Mercúrio"],
+        "Resposta_correta": 0,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 4,
+        "pergunta": "Quantos planetas existem no Sistema Solar?",
+        "Opções": ["7", "8", "9", "10"],
+        "Resposta_correta": 1,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 5,
+        "pergunta": "Qual é o maior planeta do Sistema Solar?",
+        "Opções": ["Saturno", "Júpiter", "Neptuno", "Urano"],
+        "Resposta_correta": 1,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 6,
+        "pergunta": "Qual planeta tem anéis visíveis?",
+        "Opções": ["Marte", "Vénus", "Saturno", "Mercúrio"],
+        "Resposta_correta": 2,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 7,
+        "pergunta": "Qual planeta é o mais quente?",
+        "Opções": ["Mercúrio", "Vénus", "Marte", "Júpiter"],
+        "Resposta_correta": 1,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 8,
+        "pergunta": "Qual planeta tem mais luas conhecidas?",
+        "Opções": ["Terra", "Marte", "Júpiter", "Vénus"],
+        "Resposta_correta": 2,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 9,
+        "pergunta": "Qual é o planeta mais distante do Sol?",
+        "Opções": ["Urano", "Neptuno", "Saturno", "Júpiter"],
+        "Resposta_correta": 1,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 10,
+        "pergunta": "Como se chamam os corpos rochosos que orbitam o Sol?",
+        "Opções": ["Estrelas", "Asteróides", "Satélites", "Nebulosas"],
+        "Resposta_correta": 1,
+        "Categoria": "Sistema solar",
+        "Dificuldade": "Difícil"
+    },
+
+    {
+        "ID": 11,
+        "pergunta": "O que é uma batata?",
+        "Opções": ["Um vegetal", "Uma árvore", "Um fruto", "Um cereal"],
+        "Resposta_correta": 0,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 12,
+        "pergunta": "Qual destes é um fruto?",
+        "Opções": ["Cenoura", "Maçã", "Alface", "Batata"],
+        "Resposta_correta": 1,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 13,
+        "pergunta": "O leite vem de:",
+        "Opções": ["Plantas", "Animais", "Minerais", "Frutos"],
+        "Resposta_correta": 1,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 14,
+        "pergunta": "O pão é feito principalmente de:",
+        "Opções": ["Carne", "Farinha", "Leite", "Arroz"],
+        "Resposta_correta": 1,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 15,
+        "pergunta": "Qual destes alimentos é um cereal?",
+        "Opções": ["Arroz", "Maçã", "Cenoura", "Carne"],
+        "Resposta_correta": 0,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 16,
+        "pergunta": "O queijo é produzido a partir de:",
+        "Opções": ["Água", "Soja", "Leite", "Trigo"],
+        "Resposta_correta": 2,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 17,
+        "pergunta": "Qual destes alimentos é rico em proteínas?",
+        "Opções": ["Carne", "Maçã", "Alface", "Pão"],
+        "Resposta_correta": 0,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 18,
+        "pergunta": "Qual vitamina é associada aos citrinos?",
+        "Opções": ["Vitamina A", "Vitamina B", "Vitamina C", "Vitamina D"],
+        "Resposta_correta": 2,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 19,
+        "pergunta": "O arroz é uma fonte principal de:",
+        "Opções": ["Proteínas", "Gorduras", "Hidratos de carbono", "Vitaminas"],
+        "Resposta_correta": 2,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 20,
+        "pergunta": "Qual destes é um alimento processado?",
+        "Opções": ["Maçã", "Peixe fresco", "Iogurte", "Cenoura"],
+        "Resposta_correta": 2,
+        "Categoria": "Alimentos",
+        "Dificuldade": "Difícil"
+    },
+
+    {
+        "ID": 21,
+        "pergunta": "Quem foi o primeiro rei de Portugal?",
+        "Opções": ["D. João I", "D. Afonso Henriques", "D. Manuel I", "D. Pedro I"],
+        "Resposta_correta": 1,
+        "Categoria": "História",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 22,
+        "pergunta": "Portugal pertence a que continente?",
+        "Opções": ["África", "Europa", "Ásia", "América"],
+        "Resposta_correta": 1,
+        "Categoria": "História",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 23,
+        "pergunta": "Quem descobriu o Brasil?",
+        "Opções": ["Vasco da Gama", "Pedro Álvares Cabral", "Cristóvão Colombo", "Fernão de Magalhães"],
+        "Resposta_correta": 1,
+        "Categoria": "História",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 24,
+        "pergunta": "Em que ano começou a Segunda Guerra Mundial?",
+        "Opções": ["1935", "1939", "1941", "1945"],
+        "Resposta_correta": 1,
+        "Categoria": "História",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 25,
+        "pergunta": "Qual civilização construiu as pirâmides?",
+        "Opções": ["Romanos", "Gregos", "Egípcios", "Maias"],
+        "Resposta_correta": 2,
+        "Categoria": "História",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 26,
+        "pergunta": "A Revolução Francesa ocorreu em que ano?",
+        "Opções": ["1776", "1789", "1804", "1815"],
+        "Resposta_correta": 1,
+        "Categoria": "História",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 27,
+        "pergunta": "Quem foi Napoleão Bonaparte?",
+        "Opções": ["Rei espanhol", "Imperador francês", "Filósofo", "Navegador"],
+        "Resposta_correta": 1,
+        "Categoria": "História",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 28,
+        "pergunta": "A Idade Média terminou em:",
+        "Opções": ["1453", "1492", "1500", "1600"],
+        "Resposta_correta": 0,
+        "Categoria": "História",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 29,
+        "pergunta": "O Império Romano teve origem em:",
+        "Opções": ["Grécia", "Roma", "Egito", "Pérsia"],
+        "Resposta_correta": 1,
+        "Categoria": "História",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 30,
+        "pergunta": "A Primeira Guerra Mundial começou em:",
+        "Opções": ["1912", "1914", "1918", "1920"],
+        "Resposta_correta": 1,
+        "Categoria": "História",
+        "Dificuldade": "Difícil"
+    },
+
+    {
+        "ID": 31,
+        "pergunta": "A água ferve a quantos graus Celsius?",
+        "Opções": ["90", "100", "110", "120"],
+        "Resposta_correta": 1,
+        "Categoria": "Ciência",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 32,
+        "pergunta": "Qual órgão bombeia o sangue?",
+        "Opções": ["Pulmão", "Cérebro", "Coração", "Estômago"],
+        "Resposta_correta": 2,
+        "Categoria": "Ciência",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 33,
+        "pergunta": "Qual gás respiramos?",
+        "Opções": ["Oxigénio", "Hidrogénio", "Azoto", "Dióxido de carbono"],
+        "Resposta_correta": 0,
+        "Categoria": "Ciência",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 34,
+        "pergunta": "Quantos estados físicos da matéria são ensinados normalmente?",
+        "Opções": ["2", "3", "4", "5"],
+        "Resposta_correta": 2,
+        "Categoria": "Ciência",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 35,
+        "pergunta": "Qual é o maior órgão do corpo humano?",
+        "Opções": ["Fígado", "Pele", "Pulmão", "Coração"],
+        "Resposta_correta": 1,
+        "Categoria": "Ciência",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 36,
+        "pergunta": "As plantas produzem alimento através de:",
+        "Opções": ["Respiração", "Fotossíntese", "Digestão", "Fermentação"],
+        "Resposta_correta": 1,
+        "Categoria": "Ciência",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 37,
+        "pergunta": "O cérebro pertence a que sistema?",
+        "Opções": ["Digestivo", "Circulatório", "Respiratório", "Nervoso"],
+        "Resposta_correta": 3,
+        "Categoria": "Ciência",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 38,
+        "pergunta": "Qual destes animais é um mamífero?",
+        "Opções": ["Galinha", "Cobra", "Baleia", "Peixe"],
+        "Resposta_correta": 2,
+        "Categoria": "Ciência",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 39,
+        "pergunta": "O que estuda a biologia?",
+        "Opções": ["Rochas", "Planetas", "Seres vivos", "Números"],
+        "Resposta_correta": 2,
+        "Categoria": "Ciência",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 40,
+        "pergunta": "Qual partícula tem carga negativa?",
+        "Opções": ["Protão", "Neutrão", "Eletrão", "Núcleo"],
+        "Resposta_correta": 2,
+        "Categoria": "Ciência",
+        "Dificuldade": "Difícil"
+    },
+
+    {
+        "ID": 41,
+        "pergunta": "Qual é a capital de Portugal?",
+        "Opções": ["Lisboa", "Porto", "Braga", "Faro"],
+        "Resposta_correta": 0,
+        "Categoria": "Geografia",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 42,
+        "pergunta": "Qual é o maior oceano do mundo?",
+        "Opções": ["Atlântico", "Índico", "Pacífico", "Ártico"],
+        "Resposta_correta": 2,
+        "Categoria": "Geografia",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 43,
+        "pergunta": "Em que continente fica o Brasil?",
+        "Opções": ["África", "Europa", "América do Sul", "Ásia"],
+        "Resposta_correta": 2,
+        "Categoria": "Geografia",
+        "Dificuldade": "Fácil"
+    },
+    {
+        "ID": 44,
+        "pergunta": "Qual é o rio mais longo do mundo?",
+        "Opções": ["Nilo", "Amazonas", "Danúbio", "Mississippi"],
+        "Resposta_correta": 1,
+        "Categoria": "Geografia",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 45,
+        "pergunta": "Qual país tem a maior população?",
+        "Opções": ["Estados Unidos", "Índia", "China", "Rússia"],
+        "Resposta_correta": 1,
+        "Categoria": "Geografia",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 46,
+        "pergunta": "A Terra tem que forma aproximada?",
+        "Opções": ["Plana", "Esférica", "Quadrada", "Cúbica"],
+        "Resposta_correta": 1,
+        "Categoria": "Geografia",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 47,
+        "pergunta": "Qual destes países é europeu?",
+        "Opções": ["Brasil", "Japão", "Espanha", "México"],
+        "Resposta_correta": 2,
+        "Categoria": "Geografia",
+        "Dificuldade": "Médio"
+    },
+    {
+        "ID": 48,
+        "pergunta": "Qual é o ponto mais alto da Terra?",
+        "Opções": ["Monte Branco", "Monte Fuji", "Monte Everest", "Serra da Estrela"],
+        "Resposta_correta": 2,
+        "Categoria": "Geografia",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 49,
+        "pergunta": "Qual deserto é considerado o mais quente?",
+        "Opções": ["Gobi", "Saara", "Atacama", "Kalahari"],
+        "Resposta_correta": 1,
+        "Categoria": "Geografia",
+        "Dificuldade": "Difícil"
+    },
+    {
+        "ID": 50,
+        "pergunta": "Que linha imaginária divide a Terra em hemisfério norte e sul?",
+        "Opções": ["Trópico de Câncer", "Equador", "Meridiano de Greenwich", "Círculo Polar Ártico"],
+        "Resposta_correta": 1,
+        "Categoria": "Geografia",
+        "Dificuldade": "Difícil"
+    }
+]
