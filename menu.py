@@ -29,15 +29,27 @@ def mostrar_menu():
                 print("|================================================|")
                 print("|--------------------Jogar-----------------------|")
                 print("\================================================/")
-                logica.escolher_dificuldade() 
+                lista_perguntas=logica.escolher_dificuldade() 
                 def mostrar_pergunta():
                     print("/-----------------\============/-----------------\ ")
                     print("|-----------------|==Pergunta==|-----------------|")
                     print("\-----------------/============\-----------------/")
+                    questao=#criar uma outra função que vai buscar as informações...
+                    opcoes=#criar uma outra função que vai buscar as informações...
+                    print(questao)
+                    print(opcoes)
+
+
+                    '''
                     contador = 0
                     perguntas_ja_feitas = []
                     while contador <= 10:
-                        
+                        for i in range(11):
+                            print("\n")
+                            print(f"Número {i}")
+                            contador -= 1
+                        return
+                    '''
             elif option == 2:
                 print("|================================================|")
                 print("|------------------Pontuações--------------------|")
