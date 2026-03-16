@@ -1,6 +1,30 @@
 import logica
 import files
 
+
+def mostrar_ajuda():
+    while True:
+        print("\n Opções de ajuda:")
+        print("1- Jogabilidade")
+        print("2- Pontuações")
+        print("3- Sair")
+        try:
+            escolha_ajuda=int(input("Introduz uma opção: "))
+            if escolha_ajuda==1:
+                print("1º passo: deve escolher a dificuldade que quer jogar. Pode escolher entre fácil, médio e difícil.")
+                print("\n2º passo: Vai aparecer as perguntas, na qual deve escrever a opção correta")
+                print("\n3º passo: no fim do jogo, vai poder ver a pontuação final.")
+            elif escolha_ajuda==2:
+                print("Aqui pode consultar a pontuação. Para sair, basta premir a tecla enter.")
+                voltar_ajuda=input(" : ")
+                print(voltar_ajuda)
+            elif escolha_ajuda==3:
+                break
+            else:
+                print("Erro: deve introduzir um número válido")
+        except ValueError:
+            print("Erro: deve introduzir um número válido")
+
 def mostrar_menu():
     utilizador = input("-> Utilizador: ")
     while True:
@@ -72,28 +96,7 @@ def mostrar_menu():
                 print("|-----------------Regras/Ajuda-------------------|")
                 print("\================================================/")
                 print("")
-                def mostrar_ajuda():
-                    while True:
-                        print("\n Opções de ajuda:")
-                        print("1- Jogabilidade")
-                        print("2- Pontuações")
-                        print("3- Sair")
-                        try:
-                            escolha_ajuda=int(input("Introduz uma opção: "))
-                            if escolha_ajuda==1:
-                                print("1º passo: deve escolher a dificuldade que quer jogar. Pode escolher entre fácil, médio e difícil.")
-                                print("\n2º passo: Vai aparecer as perguntas, na qual deve escrever a opção correta")
-                                print("\n3º passo: no fim do jogo, vai poder ver a pontuação final.")
-                            elif escolha_ajuda==2:
-                                print("Aqui pode consultar a pontuação. Para sair, basta premir a tecla enter.")
-                                voltar_ajuda=input(" : ")
-                                print(voltar_ajuda)
-                            elif escolha_ajuda==3:
-                                break
-                            else:
-                                print("Erro: deve introduzir um número válido")
-                        except ValueError:
-                            print("Erro: deve introduzir um número válido")
+                mostrar_ajuda()
                 print("/================================================\ ")
             else:
                 print("|================================================|")
