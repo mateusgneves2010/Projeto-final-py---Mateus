@@ -3,7 +3,7 @@ import json
 import files
 
 #opção 1
-
+'''
 def sortear_perguntas_facil(lista_facil):
     lista_final_facil=[]
     for i in lista_facil:
@@ -45,7 +45,7 @@ def sortear_peguntas_geral(lista_geral):
             lista_final_geral.append(pergunta)
             break
     return lista_final_geral
-
+'''
 def escolher_dificuldade():
         while True:
             print("Escolhe o nível de dificuldade:")
@@ -61,7 +61,8 @@ def escolher_dificuldade():
                     for i in perguntas:
                         if i["Dificuldade"]=="Fácil":
                             perguntas_facil_list.append(i)
-                            perguntas_facil = sortear_perguntas_facil(perguntas_facil_list)
+                            perguntas_facil=random.sample(perguntas_facil_list, 10, counts=None)
+                    print(perguntas_facil)
                     return perguntas_facil
                     #Acionar a função sortear_perguntas_facil
                 elif escolha_dificuldade==2:
@@ -70,7 +71,7 @@ def escolher_dificuldade():
                     for i in perguntas:
                         if i["Dificuldade"]=="Médio":
                             perguntas_medio_list.append(i)
-                            perguntas_medio = sortear_perguntas_medio(perguntas_medio_list)
+                            random.sample(perguntas_medio_list, 10, counts=None)
                     return perguntas_medio                    
                 elif escolha_dificuldade==3:
                     perguntas_dificil_list=[]
@@ -78,7 +79,7 @@ def escolher_dificuldade():
                     for i in perguntas:
                         if i["Dificuldade"]=="Difícil":
                             perguntas_dificil_list.append(i)
-                            perguntas_dificil=sortear_perguntas_dificil(perguntas_dificil_list)
+                            random.sample(perguntas_dificil_list, 10, counts=None)
                     return perguntas_dificil
                 elif escolha_dificuldade==4:
                     
@@ -110,5 +111,6 @@ pontuacoes_file=files.importar_pontuacao()
 
 
 #Bloco de testes:
-
+dificuldade=escolher_dificuldade()
+print(dificuldade)
 #Bloco de testes:

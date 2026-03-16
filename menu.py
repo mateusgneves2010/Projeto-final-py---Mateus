@@ -34,10 +34,10 @@ def mostrar_menu():
                     print("/-----------------\============/-----------------\ ")
                     print("|-----------------|==Pergunta==|-----------------|")
                     print("\-----------------/============\-----------------/")
-                    questao=#criar uma outra função que vai buscar as informações...
-                    opcoes=#criar uma outra função que vai buscar as informações...
-                    print(questao)
-                    print(opcoes)
+#                    questao=#criar uma outra função que vai buscar as informações...
+#                    opcoes=#criar uma outra função que vai buscar as informações...
+#                    print(questao)
+#                    print(opcoes)
 
 
                     '''
