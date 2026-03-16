@@ -71,7 +71,7 @@ def escolher_dificuldade():
                     for i in perguntas:
                         if i["Dificuldade"]=="Médio":
                             perguntas_medio_list.append(i)
-                            random.sample(perguntas_medio_list, 10, counts=None)
+                    random.sample(perguntas_medio_list, 10, counts=None)
                     return perguntas_medio                    
                 elif escolha_dificuldade==3:
                     perguntas_dificil_list=[]
@@ -111,6 +111,5 @@ pontuacoes_file=files.importar_pontuacao()
 
 
 #Bloco de testes:
-dificuldade=escolher_dificuldade()
-print(dificuldade)
+
 #Bloco de testes:
