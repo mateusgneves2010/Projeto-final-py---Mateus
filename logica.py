@@ -61,7 +61,7 @@ def escolher_dificuldade():
                     for i in perguntas:
                         if i["Dificuldade"]=="Fácil":
                             perguntas_facil_list.append(i)
-                            perguntas_facil=random.sample(perguntas_facil_list, 10, counts=None)
+                    perguntas_facil=random.sample(perguntas_facil_list, 10, counts=None)
                     print(perguntas_facil)
                     return perguntas_facil
                     #Acionar a função sortear_perguntas_facil
@@ -79,7 +79,7 @@ def escolher_dificuldade():
                     for i in perguntas:
                         if i["Dificuldade"]=="Difícil":
                             perguntas_dificil_list.append(i)
-                            random.sample(perguntas_dificil_list, 10, counts=None)
+                    random.sample(perguntas_dificil_list, 10, counts=None)
                     return perguntas_dificil
                 elif escolha_dificuldade==4:
                     
