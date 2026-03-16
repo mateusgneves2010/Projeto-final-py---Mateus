@@ -71,7 +71,8 @@ def escolher_dificuldade():
                     for i in perguntas:
                         if i["Dificuldade"]=="Médio":
                             perguntas_medio_list.append(i)
-                    random.sample(perguntas_medio_list, 10, counts=None)
+                    perguntas_medio=random.sample(perguntas_medio_list, 10, counts=None)
+                    print(perguntas_medio)
                     return perguntas_medio                    
                 elif escolha_dificuldade==3:
                     perguntas_dificil_list=[]
@@ -79,13 +80,18 @@ def escolher_dificuldade():
                     for i in perguntas:
                         if i["Dificuldade"]=="Difícil":
                             perguntas_dificil_list.append(i)
-                    random.sample(perguntas_dificil_list, 10, counts=None)
+                    perguntas_dificil=random.sample(perguntas_dificil_list, 10, counts=None)
+                    print(perguntas_dificil)
                     return perguntas_dificil
                 elif escolha_dificuldade==4:
-                    
-                    #Acionar a função sortear_perguntas_geral
-                    print("Jogo ainda não está feito seu tótó")
-                    break
+                    perguntas_geral=[]
+                    perguntas_geral_list=[]
+                    for i in perguntas:
+                        perguntas_geral_list.append(i)
+                    perguntas_geral=random.sample(perguntas_geral_list, 10, counts=None)
+                    print(perguntas_geral)
+                    return perguntas_geral
+                    #Acionar a função sortear_perguntas_gera
                 else:
                     print("Escolhe pelo menos uma opção...")
             except ValueError:
@@ -107,7 +113,7 @@ pontuacoes_file=files.importar_pontuacao()
 
     
 
-#escolher_dificuldade()
+escolher_dificuldade()
 
 
 #Bloco de testes:
