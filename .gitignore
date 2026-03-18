@@ -36,7 +36,7 @@ $RECYCLE.BIN/
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
-
+settings.joan
 # JetBrains (IntelliJ/IDEA, PyCharm, Rider, etc.)
 .idea/
 *.iml
